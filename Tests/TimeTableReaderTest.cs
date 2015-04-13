@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WindowsFormsApplication1;
+using TimetableApp;
 using System.IO;
 
 namespace Tests

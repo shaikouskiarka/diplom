@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("WindowsFormsApplication1")]
+[assembly: AssemblyTitle("TimetableApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("InfORM")]
-[assembly: AssemblyProduct("WindowsFormsApplication1")]
+[assembly: AssemblyProduct("TimetableApp")]
 [assembly: AssemblyCopyright("Copyright © InfORM 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

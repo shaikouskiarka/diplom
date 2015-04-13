@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace TimetableApp
 {
     partial class Form1
     {

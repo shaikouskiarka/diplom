@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WindowsFormsApplication1\WindowsFormsApplication1.csproj">
+    <ProjectReference Include="..\TimetableApp\TimetableApp.csproj">
       <Project>{04d7da07-32ce-4b8c-ae03-5e25a6caacae}</Project>
-      <Name>WindowsFormsApplication1</Name>
+      <Name>TimetableApp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

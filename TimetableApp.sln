@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{04D7DA07-32CE-4B8C-AE03-5E25A6CAACAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimetableApp", "TimetableApp\TimetableApp.csproj", "{04D7DA07-32CE-4B8C-AE03-5E25A6CAACAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A92FE484-E5CE-481D-AA2E-D7CDE67D3BCA}"
 EndProject

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 
-namespace WindowsFormsApplication1
+namespace TimetableApp
 {
     public class TimetableReader
     {
