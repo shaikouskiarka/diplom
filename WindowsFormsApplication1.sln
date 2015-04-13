@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{04D7DA07-32CE-4B8C-AE03-5E25A6CAACAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A92FE484-E5CE-481D-AA2E-D7CDE67D3BCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{04D7DA07-32CE-4B8C-AE03-5E25A6CAACAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D7DA07-32CE-4B8C-AE03-5E25A6CAACAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D7DA07-32CE-4B8C-AE03-5E25A6CAACAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92FE484-E5CE-481D-AA2E-D7CDE67D3BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92FE484-E5CE-481D-AA2E-D7CDE67D3BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92FE484-E5CE-481D-AA2E-D7CDE67D3BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92FE484-E5CE-481D-AA2E-D7CDE67D3BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

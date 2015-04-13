@@ -23,7 +23,8 @@ namespace WindowsFormsApplication1
         {
             string s = File.ReadAllText(@"name.txt");
             dynamic obj = Json.Decode(s);
-            label1.Text = obj.Status;
+            Console.WriteLine(obj.Channel_type.__numeric__1);
+            label1.Text = obj.Channel_type;
             Console.WriteLine(obj.Status + ", " + obj.Channel_type);
             Console.ReadLine();
         }
