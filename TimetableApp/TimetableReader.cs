@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,23 @@ namespace TimetableApp
             { 
                 return json.Status;
             }
+        }
+
+        public dynamic GetChannel(string name)
+        {
+            foreach (var channel in json.Channel_Type["1"])
+            {
+                if (name.Equals(channel.Name))
+                {
+                    return channel;
+                }
+            }
+            return null;
+        }
+
+        public IEnumerable<dynamic> GetSchedule(dynamic channel)
+        {
+            return channel.Schedule;
         }
     }
 }

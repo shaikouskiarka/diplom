@@ -23,5 +23,17 @@ namespace Tests
         {
             Assert.AreEqual(timetable.Status, "OK");
         }
+
+        [TestMethod]
+        public void TestGetChannel()
+        {
+            Assert.IsNotNull(timetable.GetChannel("Беларусь 3"));
+        }
+
+        [TestMethod]
+        public void GetFirstBroadcastForBelarus2()
+        {
+            Assert.AreEqual(timetable.GetSchedule(timetable.GetChannel("Беларусь 2"))[0].Name, "Телеутро");
+        }
     }
 }
