@@ -12,20 +12,27 @@ using System.IO;
 
 namespace TimetableApp
 {
-    public partial class Form1 : Form
+    public partial class TVTimetable : Form
     {
-        public Form1()
+
+        private EntityDAO<MovieInfo> movieInfoDAO = new MovieInfoDAO(null);
+        private EntityDAO<Broadcast> broadcastDAO = new BroadcastDAO(null);
+        private EntityDAO<Channel> channelDAO = new ChannelDAO(null);
+        private Kinopoisk kinopoisk;
+        private System.Windows.Forms.Button infoButton;        
+
+        public TVTimetable()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string s = File.ReadAllText(@"name.txt");
-            dynamic obj = Json.Decode(s);
-            label1.Text = obj.Status;
-            Console.WriteLine(obj.Status + ", " + obj.Channel_type);
-            Console.ReadLine();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    string s = File.ReadAllText(@"name.txt");
+        //    dynamic obj = Json.Decode(s);
+        //    //label1.Text = obj.Status;
+        //    Console.WriteLine(obj.Status + ", " + obj.Channel_type);
+        //    Console.ReadLine();
+        //}
     }
 }

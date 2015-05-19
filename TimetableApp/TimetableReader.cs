@@ -27,7 +27,7 @@ namespace TimetableApp
             }
         }
 
-        public dynamic GetChannel(string name)
+        public Channel GetChannel(string name)
         {
             foreach (var channel in json.Channel_Type["1"])
             {
@@ -37,11 +37,6 @@ namespace TimetableApp
                 }
             }
             return null;
-        }
-
-        public IEnumerable<dynamic> GetSchedule(dynamic channel)
-        {
-            return channel.Schedule;
         }
     }
 }
